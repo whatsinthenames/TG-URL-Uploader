@@ -109,7 +109,7 @@ async def cult_small_video(video_file, output_directory, start_time, end_time):
         "-ss",
         start_time,
         "-to",
-        end_time,
+        10,
         "-async",
         "1",
         "-strict",
